@@ -41,7 +41,7 @@ bool isRotatedPalindrome(string str) {
  for (int i=0; i < n; i++) {
 
      rotate(str.begin(), str.begin()+1,str.end());
-
+ 
      if (isPalindrome(str,0,n-1)) {
          return true;
      }
